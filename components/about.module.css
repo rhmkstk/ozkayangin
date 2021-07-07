@@ -1,0 +1,28 @@
+.container {
+  color: var(--c-white);
+  background-color: var(--c-bg-default);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.container h2 {
+  font-size: var(--fs-title-big);
+  font-weight: bold;
+  font-family: var(--ff-title);
+  margin-bottom: var(--length-20);
+}
+.container p {
+  font-size: var(--fs-body);
+  max-width: var(--vw-60);
+}
+
+@media only screen and (max-width: 768px) {
+  .container h2 {
+    font-size: var(--fs-title) ;
+  }
+  .container p {
+    font-size: var(--fs-small);
+  }
+}

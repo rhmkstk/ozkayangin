@@ -1,0 +1,24 @@
+.logo {
+  position: sticky;
+  top: 0;
+  font-size: 10px;
+  left: 6em;
+  height: 15em;
+  width: 15em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background-color: var(--c-light);
+  border-bottom-left-radius: var(--radius-full);
+  border-bottom-right-radius: var(--radius-full);
+  margin-bottom: -15em;
+  padding: 0px 2.5em;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px ) {
+  .logo {
+    font-size: 8px !important;
+    left: 4em;
+  }
+}

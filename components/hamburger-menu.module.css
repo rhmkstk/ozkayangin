@@ -1,0 +1,46 @@
+.icon{
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 3;
+  color: var(--c-red);
+  cursor: pointer;
+  display: none;
+}
+.menu{
+  height: var(--percent-100);
+  width: 0%;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  right: 0;
+  background-color: var(--c-theme);
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu ul li{
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.menu ul li:hover{
+  color: var(--c-red-dark);
+}
+.close{
+  position: absolute;
+  top: var(--length-20);
+  right: var(--length-20);
+  cursor: pointer;
+}
+.openMenu{
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 768px ) {
+  .icon{
+    display: block;
+  }
+  
+}

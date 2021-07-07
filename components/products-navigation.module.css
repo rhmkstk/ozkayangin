@@ -1,0 +1,39 @@
+.menu{
+  height: 600px;
+  border: 2px solid var(--c-border);
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: var(--radius-8);
+}
+.menu a{
+  font-size: var(--fs-small);
+  color: var(--c-theme);
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0px 2px;
+}
+.menu a:not(:last-child){
+  border-bottom: 2px solid var(--c-border);
+}
+.menu a:hover{
+  background: var(--c-light);
+}
+.hamburgerResponsive{
+  top: 195px !important;
+  color: var(--c-theme);
+}
+.active{
+  background: var(--c-light)!important;
+  
+}
+
+@media only screen and (max-width: 768px ) {
+  .menu{
+  display: none !important;
+  }
+}

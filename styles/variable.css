@@ -1,0 +1,65 @@
+:root {
+  --c-theme: #1e1e20;
+  --c-red: red;
+  --c-red-dark: #962715;
+  --c-default: #bbc3c6;
+  --c-light: #f5f5f5;
+  --c-white: #ffffff;
+  --c-bg-default: rgba(0, 0, 0, 0.4);
+  --c-bg-dark: rgba(0, 0, 0, 0.9);
+  --c-border: rgb(229, 229, 229);
+
+  --shadow-basic: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+  --ff-base: 'Comfortaa', cursive;
+  --ff-title: 'Barlow Semi Condensed', sans-serif;
+
+  --lh-body: 1.4;
+
+  --fs-base: 16px;
+  --fs-small: 0.9rem;
+  --fs-body: 1.3rem;
+  --fs-title: 1.9rem;
+  --fs-title-big: 3.6rem;
+
+  --fw-normal: 400;
+  --fw-bold: 600;
+
+  --radius-8: 8px;
+  --radius-20: 20px;
+  --radius-full: 99px;
+
+  --length-1: 1px;
+  --length-10: 10px;
+  --length-14: 14px;
+  --length-15: 15px;
+  --length-20: 20px;
+  --length-25: 25px;
+  --length-30: 30px;
+  --length-60: 60px;
+  --length-70: 70px;
+  --length-90: 90px;
+  --length-125: 125px;
+  --length-150: 150px;
+  --length-160: 160px;
+  --length-170: 170px;
+  --length-200: 200px;
+  --length-250: 250px;
+  --length-260: 260px;
+  --length-300: 300px;
+  --length-500: 500px;
+
+  --percent-65: 65%;
+  --percent-60: 60%;
+  --percent-70: 70%;
+  --percent-80: 80%;
+  --percent-100: 100%;
+
+  --deg-90: 90deg;
+
+  --vh-60: 60vh;
+  --vh-100: 100vh;
+
+  --vw-60: 60vw;
+
+}

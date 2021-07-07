@@ -1,0 +1,30 @@
+.wrapper{
+  background: var(--c-white);
+}
+.head{
+  position: relative;  
+}
+.content{
+  width: calc(100% - 60px);
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 80px 0px;
+  grid-column-gap: 40px; 
+  grid-row-gap: 40px;
+  place-items: center;
+}
+
+@media only screen and (max-width: 768px ) {
+  .container{
+    grid-template-columns: 250px;
+  }
+}
+
+
+
+

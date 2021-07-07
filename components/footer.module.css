@@ -1,0 +1,27 @@
+.footer{
+  background: var(--c-theme);
+  padding: var(--length-60) 0px var(--length-15) var(--length-20);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--c-red-dark);
+}
+.socialLinks{
+  margin-bottom: var(--length-60);
+}
+.socialLinks a{
+  margin-right: var(--length-20); 
+}
+.socialLinks a:hover{
+  color: var(--c-default);
+}
+.footer p{
+  align-self: flex-start;
+  color: var(--c-default);
+  font-size: var(--fs-small);
+}
+.footer p a{
+  color: var(--c-red-dark);
+  text-decoration: underline;
+}

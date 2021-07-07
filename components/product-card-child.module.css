@@ -1,0 +1,35 @@
+.card {
+  height: 370px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: var(--length-1) solid var(--c-border);
+  border-radius: var(--radius-8);
+  padding: var(--length-20) var(--length-10) 0px var(--length-10);
+}
+.photo{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+}
+.photo img{
+  max-height: 250px;
+}
+.title {
+  min-height: var(--length-70);
+  width: calc(var(--percent-100) + var(--length-20));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: var(--radius-8);
+  border-bottom-right-radius: var(--radius-8);
+  color: var(--c-theme);
+  padding: 0px 5px;
+}
+.title h3 {
+  font-size: var(--fs-small);
+  text-align: center;
+}
